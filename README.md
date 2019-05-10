@@ -34,6 +34,7 @@ ANSWER: The forEach method doesn’t return anything (undefined). It just calls 
 
 2. What is the difference between a function and a method?
 ANSWER: the main difference between a method and a function is the scope. A method a property of an object containing a function definition. Invoking them also requires a different steps, you must invoke methods in the context of the objects that they were declared in.
+
 3. What is closure?
 
 ANSWER: The combination of a function and the lexical environment in which the function was declared. This lexical environment includes any local variables that were in the same scope at the time of declaration. 
